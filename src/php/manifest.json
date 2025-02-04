@@ -1,9 +1,9 @@
 {
-  "version": "1.37.0",
+  "version": "1.38.0",
   "imageNameSuffix": "php",
   "dockerFile": "src/php/Dockerfile",
   "context": ".",
-  "platforms": "linux/amd64",
+  "platforms": "linux/amd64,linux/arm64",
   "validation": {
     "enabled": true,
     "expects": [
